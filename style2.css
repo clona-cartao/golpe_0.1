@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(black, red);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    scroll-margin-block-end: 10px;
+    text-align: center;
+    color: #ff0000;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(251, 255, 0);
+}
+
+.rodape {
+    text-align: center;
+    color: #ffffff;
+    background-color: #5a5a5a;
+    padding: 1px;
+    border-radius: 100px;
+    box-shadow: black;
+    margin: 10px;
+    font-size: xx-small;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 200px;
+    font-size: 20px;
+    margin-top: 200px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff0000;
+    color: rgb(245, 255, 102);
+}
+
+button:hover {
+    background-color: #ffffff;
+}
+
+.hidden {
+    display: none;
+}
